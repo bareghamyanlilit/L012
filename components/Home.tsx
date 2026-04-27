@@ -198,7 +198,7 @@ export function Home() {
           {txt3}
         </motion.p>
 
-        <AttendanceGuests />
+        {/* <AttendanceGuests /> */}
 
         <motion.p {...anim} className=" text-2xl mt-10 ">
           {txt4}
