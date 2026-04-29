@@ -43,7 +43,7 @@ const ProgramItem = ({ time, title, address ,subt}: any) => {
         {...anim}
         href={`https://www.google.com/maps/search/${address}`}
         target="_blank"
-        className="bg-guyn text-[#f1f1f1] px-4 py-2 mt-2 rounded-[20px] text-sm"
+        className="bg-guyn text-[#f1f1f1] px-4 py-2 mt-6 rounded-[10px] text-sm"
       >
         Ինչպես հասնել
       </motion.a>

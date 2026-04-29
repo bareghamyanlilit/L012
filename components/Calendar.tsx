@@ -19,7 +19,7 @@ export function Calendar({ year = 2025, month = 9, highlightDay = 8 }) {
     "Նոյեմբեր",
     "Դեկտեմբեր",
   ];
-  const weekDays = ["Կիր","Երկ", "Երք", "Չրք", "Հնգ", "Ուրք", "Շբթ"];
+  const weekDays = ["Կիր","Երկ", "Երք", "Չրք", "Հնգ", "Ուրբ", "Շբթ"];
 
   const firstDay = new Date(year, month - 1, 1).getDay(); // 0=Կիրակի, 1=Երկ
   const daysInMonth = new Date(year, month, 0).getDate();
