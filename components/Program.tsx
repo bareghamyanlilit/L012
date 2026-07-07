@@ -48,9 +48,6 @@ const ProgramItem = ({ time, title, address ,subt}: any) => {
         Ինչպես հասնել
       </motion.a>
 
-      {title !== "Հարսանյաց սրահ" && (
-        <img src="/icon3.png" className=" w-20 mt-10" />
-      )}
     </div>
   );
 };
